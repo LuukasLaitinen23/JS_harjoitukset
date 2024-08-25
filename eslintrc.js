@@ -3,13 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["google", "eslint:recommended", "plugin:prettier/recommended"], // if using WebStorm, omit plugin:prettier/recommended
+  extends: ['google', 'eslint:recommended', 'plugin:prettier/recommended'], // if using WebStorm, omit plugin:prettier/recommended
   overrides: [],
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "require-jsdoc": 0,
+    'require-jsdoc': 0,
   },
 };
